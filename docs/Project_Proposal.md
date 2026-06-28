@@ -49,7 +49,7 @@ The Agile (Scrum) model is selected because it supports iterative and incrementa
 
 #### Software Development Phases
 
-```text
+
 Requirement Analysis
         ↓
 Project Planning
@@ -63,20 +63,89 @@ Testing
 Deployment
         ↓
 Maintenance
-```
 
-#### Activities, Duration, Responsibilities and Deliverables
 
-| Phase                | Activities                                                                                                                                        | Duration | Person Responsible                | Deliverables                                                         |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------- | -------------------------------------------------------------------- |
-| Requirement Analysis | Gather functional and non-functional requirements, identify stakeholders, define project scope, prepare Software Requirement Specification (SRS). | 3 Days   | Project Manager, Business Analyst | SRS Document, Requirement Specification                              |
-| Project Planning     | Define milestones, estimate resources, prepare project schedule, select technology stack, perform feasibility analysis and risk assessment.       | 2 Days   | Project Manager                   | Project Plan, Work Breakdown Structure (WBS), Risk Assessment Report |
-| System Design        | Design system architecture, database schema, REST APIs, user interface wireframes, security architecture and module interactions.                 | 4 Days   | System Architect, UI/UX Designer  | Architecture Diagram, ER Diagram, API Design Document, UI Wireframes |
-| Development          | Develop frontend components, backend services, REST APIs, authentication module, database integration, dashboards and business logic.             | 15 Days  | Full Stack Developer              | Source Code, API Endpoints, Database Collections, Functional Modules |
-| Testing              | Perform unit testing, integration testing, API testing, system testing, regression testing, bug fixing and validation of all modules.             | 5 Days   | QA Engineer                       | Test Cases, Bug Report, Test Execution Report                        |
-| Deployment           | Configure production environment, deploy frontend and backend, configure MongoDB Atlas, implement CI/CD pipeline, verify production build.        | 2 Days   | DevOps Engineer                   | Live Application, Deployment Documentation, CI/CD Pipeline           |
-| Maintenance          | Monitor application performance, resolve defects, optimize database queries, implement feature enhancements and perform security updates.         | Ongoing  | Development Team                  | Updated Releases, Performance Reports, Enhancement Documentation     |
+#### Requirement Analysis
 
+**Activities:** Gather project requirements, identify stakeholders, define functional and non-functional requirements, and prepare the Software Requirement Specification (SRS).
+
+**Duration:** 3 Days
+
+**Responsibility:** Project Manager, Business Analyst
+
+**Deliverables:** SRS Document, Requirement Analysis Report
+
+---
+
+#### Project Planning
+
+**Activities:** Prepare the project schedule, define milestones, select the technology stack, estimate resources, and identify project risks.
+
+**Duration:** 2 Days
+
+**Responsibility:** Project Manager
+
+**Deliverables:** Project Plan, Timeline, Risk Assessment Report
+
+---
+
+#### System Design
+
+**Activities:** Design the system architecture, database schema, REST API endpoints, UI wireframes, and navigation flow.
+
+**Duration:** 4 Days
+
+**Responsibility:** System Architect, UI/UX Designer
+
+**Deliverables:** System Architecture Diagram, Database Design, API Documentation, UI Wireframes
+
+---
+
+#### Development
+
+**Activities:** Develop the frontend using React, implement backend services with Spring Boot, integrate MongoDB, develop REST APIs, implement JWT authentication, and connect all application modules.
+
+**Duration:** 15 Days
+
+**Responsibility:** Full Stack Developer
+
+**Deliverables:** Source Code, REST APIs, Database Collections, Functional Web Application
+
+---
+
+#### Testing
+
+**Activities:** Perform unit testing, API testing using Postman, integration testing, system testing, fix identified bugs, and validate application functionality.
+
+**Duration:** 5 Days
+
+**Responsibility:** QA Engineer
+
+**Deliverables:** Test Cases, Bug Report, Test Summary Report
+
+---
+
+#### Deployment
+
+**Activities:** Deploy the frontend on Vercel, backend on Render, configure MongoDB Atlas, set up the CI/CD pipeline, and verify the production environment.
+
+**Duration:** 2 Days
+
+**Responsibility:** DevOps Engineer
+
+**Deliverables:** Live Application, Deployment Documentation, CI/CD Workflow
+
+---
+
+#### Maintenance
+
+**Activities:** Monitor application performance, fix reported issues, optimize existing features, improve security, and implement future enhancements.
+
+**Duration:** Ongoing
+
+**Responsibility:** Development Team
+
+**Deliverables:** Updated Releases, Bug Fixes, Enhancement Reports
 #### Testing Methodology
 
 * Unit Testing for individual frontend and backend modules.
