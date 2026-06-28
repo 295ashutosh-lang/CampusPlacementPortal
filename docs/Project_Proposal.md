@@ -121,11 +121,11 @@ Maintenance
 
 #### Testing Methodology
 
-* Unit Testing for individual frontend and backend modules.
-* Integration Testing to verify communication between React, Spring Boot and MongoDB.
+* Unit Testing.
+* Integration Testing.
 * API Testing using Postman for all REST endpoints.
 * System Testing to validate complete application functionality.
-* User Acceptance Testing (UAT) to ensure business requirements are satisfied.
+* User Acceptance Testing (UAT).
 * Regression Testing after every major feature implementation.
 
 #### Project Management Practices
@@ -133,7 +133,7 @@ Maintenance
 * Agile Scrum methodology with iterative development.
 * Sprint planning and feature-based implementation.
 * Version control using Git and GitHub.
-* Task tracking using GitHub Projects/Kanban Board.
+* Task tracking using GitHub Projects.
 * Daily progress monitoring and sprint reviews.
 * Continuous Integration using GitHub Actions.
 
