@@ -71,10 +71,6 @@ Maintenance
 
 **Duration:** 3 Days
 
-**Responsibility:** Project Manager, Business Analyst
-
-**Deliverables:** SRS Document, Requirement Analysis Report
-
 ---
 
 #### Project Planning
@@ -82,10 +78,6 @@ Maintenance
 **Activities:** Prepare the project schedule, define milestones, select the technology stack, estimate resources, and identify project risks.
 
 **Duration:** 2 Days
-
-**Responsibility:** Project Manager
-
-**Deliverables:** Project Plan, Timeline, Risk Assessment Report
 
 ---
 
@@ -95,10 +87,6 @@ Maintenance
 
 **Duration:** 4 Days
 
-**Responsibility:** System Architect, UI/UX Designer
-
-**Deliverables:** System Architecture Diagram, Database Design, API Documentation, UI Wireframes
-
 ---
 
 #### Development
@@ -106,10 +94,6 @@ Maintenance
 **Activities:** Develop the frontend using React, implement backend services with Spring Boot, integrate MongoDB, develop REST APIs, implement JWT authentication, and connect all application modules.
 
 **Duration:** 15 Days
-
-**Responsibility:** Full Stack Developer
-
-**Deliverables:** Source Code, REST APIs, Database Collections, Functional Web Application
 
 ---
 
@@ -119,10 +103,6 @@ Maintenance
 
 **Duration:** 5 Days
 
-**Responsibility:** QA Engineer
-
-**Deliverables:** Test Cases, Bug Report, Test Summary Report
-
 ---
 
 #### Deployment
@@ -130,10 +110,6 @@ Maintenance
 **Activities:** Deploy the frontend on Vercel, backend on Render, configure MongoDB Atlas, set up the CI/CD pipeline, and verify the production environment.
 
 **Duration:** 2 Days
-
-**Responsibility:** DevOps Engineer
-
-**Deliverables:** Live Application, Deployment Documentation, CI/CD Workflow
 
 ---
 
@@ -143,9 +119,6 @@ Maintenance
 
 **Duration:** Ongoing
 
-**Responsibility:** Development Team
-
-**Deliverables:** Updated Releases, Bug Fixes, Enhancement Reports
 #### Testing Methodology
 
 * Unit Testing for individual frontend and backend modules.
