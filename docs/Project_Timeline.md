@@ -16,12 +16,12 @@ The development of the **Campus Placement Portal** is planned over a period of *
 
 ## Milestones
 
-* ✔ Requirement Analysis Completed
-* ✔ Project Planning Completed
-* ✔ System Design Approved
-* ✔ Frontend Development Completed
-* ✔ Backend Development Completed
-* ✔ API Integration Completed
-* ✔ Testing Completed
-* ✔ Deployment Completed
-* ✔ Final Documentation Submitted
+* Requirement Analysis Completed ✔ 
+* Project Planning Completed ✔ 
+* System Design Approved ✔ 
+* Frontend Development Completed ✔ 
+* Backend Development Completed ✔ 
+* API Integration Completed ✔ 
+* Testing Completed ✔ 
+* Deployment Completed ✔ 
+* Final Documentation Submitted ✔ 
