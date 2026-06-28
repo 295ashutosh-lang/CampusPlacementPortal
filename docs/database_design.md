@@ -104,14 +104,3 @@ Job (1) ───────────────>(Many) Applications
 * A student can apply only once for the same job.
 * Only authenticated users can access protected collections.
 
----
-
-## Database Indexing
-
-* Email (Unique Index)
-* companyId
-* studentId
-* jobId
-* status
-
-These indexes improve query performance while searching for users, jobs, and applications.
