@@ -49,7 +49,7 @@ The Agile (Scrum) model is selected because it supports iterative and incrementa
 
 #### Software Development Phases
 
-
+```
 Requirement Analysis
         ↓
 Project Planning
@@ -63,7 +63,7 @@ Testing
 Deployment
         ↓
 Maintenance
-
+```
 
 #### Requirement Analysis
 
