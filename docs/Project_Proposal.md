@@ -13,15 +13,24 @@ This project aims to address these challenges by offering a secure, role-based p
 
 ### Scope
 
-Features Included
-Student registration and login
-Company registration and login
-Job posting and management
-Job search and application
-Resume upload
-Application status tracking
-Admin dashboard for user and job management
-Placement statistics and reports
+#### Features Included
+
+* Student registration and login
+* Company registration and login
+* Job posting and management
+* Job search and application
+* Resume upload
+* Application status tracking
+* Admin dashboard for user and job management
+* Placement statistics and reports
+
+#### Limitations
+
+* Only authorized college users can access the system.
+* Online interviews and video conferencing are not included.
+* Payment gateway integration is not part of this project.
+* Email and SMS notifications are planned for future versions.
+
 Limitations
 Only authorized college users can access the system.
 Online interviews and video conferencing are not included.
