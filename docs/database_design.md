@@ -82,15 +82,15 @@ The Campus Placement Portal uses **MongoDB**, a NoSQL document database, to stor
 ```text
 Users
 │
-├── Student (1 : 1)
+|─ Student (1 : 1)
 │
 └── Company (1 : 1)
 
-Company (1) ───────────< (Many) Jobs
+Company (1) ───────────>(Many) Jobs
 
-Student (1) ───────────< (Many) Applications
+Student (1) ───────────>(Many) Applications
 
-Job (1) ───────────────< (Many) Applications
+Job (1) ───────────────>(Many) Applications
 ```
 
 ---
