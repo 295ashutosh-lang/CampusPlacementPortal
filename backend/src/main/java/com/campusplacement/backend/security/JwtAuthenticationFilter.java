@@ -33,9 +33,10 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             HttpServletResponse response,
             FilterChain filterChain)
             throws ServletException, IOException {
-
+                System.out.println("JWT Filter Executed");
         // Read Authorization Header
         String authHeader = request.getHeader("Authorization");
+        System.out.println("Authorization Header: " + authHeader);
 
         // If Authorization header is missing or invalid
         if (authHeader == null || !authHeader.startsWith("Bearer ")) {
@@ -48,6 +49,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
         // Extract email from JWT
         String email = jwtService.extractEmail(jwt);
+        System.out.println("Email from JWT: " + email);
 
         // Authenticate only if user is not already authenticated
         if (email != null &&
